@@ -43,7 +43,7 @@ function prompt_bilee_setup {
   )
 
   # Set editor-info parameters.
-  zstyle ':prezto:module:editor:info:keymap:primary' format '%'
+  zstyle ':prezto:module:editor:info:keymap:primary' format '%%'
 
   # Set python-info parameters.
   zstyle ':prezto:module:python:info:virtualenv' format '(%v)'
