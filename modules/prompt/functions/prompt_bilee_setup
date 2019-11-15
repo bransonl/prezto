@@ -49,7 +49,8 @@ function prompt_bilee_setup {
   zstyle ':prezto:module:python:info:virtualenv' format '(%v)'
 
   # Define prompts.
-  PROMPT="${_prompt_bilee_colors[3]}%n%f at ${_prompt_bilee_colors[2]}%m%f in ${_prompt_bilee_colors[5]}%~%f
+  PROMPT="
+${_prompt_bilee_colors[3]}%n%f at ${_prompt_bilee_colors[2]}%m%f in ${_prompt_bilee_colors[5]}%~%f
 "'$python_info[virtualenv]${editor_info[keymap]} '
   RPROMPT=''
 }
